@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first form</title>
+</head>
+<body>
+  <h2>this is my first form</h2>
+  <form>
+    <fieldset>
+      <legend>first form</legend>
+       <label for="name">Name-</label>
+    <input type="text" placeholder="enter your name" id="name"> <br><br>
+
+    <label for="email">email-</label>
+    <input type="text" placeholder="enter your email" id="email">
+
+    <label for="password">password</label>
+    <input type="password" placeholder="enter your password" id="password"> <br><br>
+
+   <!-- radiobuttons -->
+    <label>Please select your gender</label>
+  
+   <input type="radio" name="gender" id="male" value="male">
+   <label for="male">male</label>
+
+   <input type="radio" name="gender" id="female" value="female">
+   <label for="female">female</label> 
+
+   <input type="radio" name="gender" id="other" value="other">
+   <label for="other">other</label>  <br> <br>
+
+   <!-- checkbox -->
+    <label for="">Select your hobbies</label>
+    <input type="checkbox" name="hobbies"  value="singing">Singing
+     <input type="checkbox" name="hobbies" value="dancing">Dancing
+      <input type="checkbox" name="hobbies" value="travelling">Travelling
+    <input type="submit" value="please register">
+
+
+    <!-- dropdown -->
+    <label for="select">select your state</label>
+    <select name="state" id="select">
+      <option value="" disabled selected>choose a state</option>
+      <option value="U.P">U.P.</option>
+      <option value="M.P.">M.P.</option>
+      <option value="Gujarat">Gujarat</option>
+    </select> 
+    <label for="enter">Give some suggestion-</label>
+    <textarea name="text" id="enter"cols= "20" ></textarea>
+    
+    
+
+    </fieldset>
+
+    student registration form--->>
+    full name ,email, phone number,gender(radio),subjects of interests,city,message,submit and reset buttons
+    <input type="submit" value="reset">
+    <input type="submit" value="submit">
+
+    
+
+    
+
+   
+   
+
+  </form>
+
+</body>
+</html>

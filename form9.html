@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First html form</title>
+</head>
+<body>
+  <h1>FORM</h1>
+  <form action="">
+
+    <fieldset>
+      <legend>first form</legend>
+      <label for="name">Name-</label> <br>
+    <input type="text" id="name"> <br><br>
+
+    <label for="email">Email-</label><br>
+    <input type="email" id="email"><br><br>
+
+    <label for="phone">Phone No.</label><br>
+    <input type="tel" id="phone"><br><br>
+
+    <label for="password">Password</label><br>
+    <input type="password" id="password"></label> <br><br>
+    <label for="message">Please give some suggestion-</label>
+    <textarea name="message" id="message" cols="20" rows="1"></textarea> <br><br>
+
+    <!-- radiobutton -->
+     <p>Select your gender</p>
+     <input type="radio"name="gender" id="male" value="male">
+     <label for="male">Male</label>
+
+     
+     <input type="radio"name="gender" id="female" value="female">
+     <label for="female">female</label>
+     
+     <input type="radio"name="gender" id="other" value="other">
+     <label for="other">Other</label>
+     
+     <br>
+     <br>
+     
+     <!-- checkbox -->
+      <label>your hobbies</label>
+      <input type="checkbox" name="hobbies" id="singing" value="singing">
+      <label for="singing">Singing</label>
+      <input type="checkbox" name="hobbies" id="dancing" value="dancing">
+      <label for="dancing">Dancing</label> 
+       <input type="checkbox" name="hobbies" id="Reading" value="Reading">
+       <label for="Reading">Reading</label>
+      
+      <br>
+
+      dropdown
+      <label for="state">State</label><br> 
+      <select name="state" id="state">
+        <option value="" disabled selected></option>
+        <option value="U.P.">U.P.</option> 
+        <option value="M.P.">M.P.</option> 
+        <option value="Gujarat">Gujarat></option>
+      </select>
+     
+
+
+     <input type="submit" value="submit">
+
+    </fieldset>
+    
+  </form>
+  
+</body>
+</html>

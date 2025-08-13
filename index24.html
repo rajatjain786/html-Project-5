@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first CSS</title>
+
+    <style>
+      h1,
+      h2 {
+        color: red;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+        font-style: italic;
+      }
+
+      p {
+        color: brown;
+        background-color: aquamarine;
+        border: 1px dashed red;
+      }
+      #first {
+        color: black;
+        background-color: bisque;
+        /* this is an id selector */
+      }
+      .first {
+        color: orange;
+        text-decoration: underline;
+        background-color: azure;
+        /* this is a class selector */
+      }
+      * {
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <h1 style="color: black" class="first">
+      this is my heading tag with red color
+    </h1>
+    <h2 style="text-transform: lowercase">This is my second heading.</h2>
+    <p class="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+      doloremque impedit illo dolore a, voluptatum quidem dolorem minima error
+      pariatur.
+    </p>
+    <p id="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, minus.
+    </p>
+    <p class="first">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, earum!
+    </p>
+  </body>
+</html>
